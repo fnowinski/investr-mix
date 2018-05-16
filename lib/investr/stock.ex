@@ -6,6 +6,7 @@ defmodule Investr.Stock do
   alias Investr.Repo
   alias Investr.User
   alias Investr.Stock
+  alias Investr.StockData
 
   schema "stocks" do
     field :ticker, :string
